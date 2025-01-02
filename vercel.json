@@ -16,7 +16,7 @@
     { "source": "/:protocol/:match/:url*/", "destination": ":protocol://:match/:url*/" },
     { "source": "/:protocol*://:match/:url*", "destination": ":protocol://:match/:url*" },
     { "source": "/:protocol*/:match/:url*", "destination": ":protocol://:match/:url*" },
-    { "source": "/:protocol*://:match/:url*/", "destination": ":protocol://:match/:url*/" }
-    { "source": "/:protocol*/:match/:url*/", "destination": ":protocol://:match/:url*/" }
+    { "source": "/:protocol*://:match/:url*/", "destination": ":protocol://:match/:url*/" },
+    { "source": "/:protocol*/:match/:url*/", "destination": ":protocol://:match/:url*/" },
   ]
 }
