@@ -1,13 +1,14 @@
- {
-   "rewrites": [
-     { "source": "/https/:match/:url*", "destination": "/api/proxy" },
-     { "source": "/https/:match/:url*/", "destination": "/api/proxy" },
-     { "source": "/http/:match/:url*", "destination": "/api/proxy" },
-     { "source": "/http/:match/:url*/", "destination": "/api/proxy" },
-     { "source": "/wss/:match/:url*", "destination": "wss://:match/:url*" },
-     { "source": "/:protocol/:match/:url*", "destination": "/api/proxy" },
-     { "source": "/:protocol/:match/:url*/", "destination": "/api/proxy" },
-     { "source": "/:protocol*/:match/:url*", "destination": "/api/proxy" },
-     { "source": "/:protocol*/:match/:url*/", "destination": "/api/proxy" }
-   ]
- }
+{
+  "rewrites": [
+    { "source": "/https/:match/:url*", "destination": "/api/proxy" },
+    { "source": "/https/:match/:url*/", "destination": "/api/proxy" },
+    { "source": "/http/:match/:url*", "destination": "/api/proxy" },
+    { "source": "/http/:match/:url*/", "destination": "/api/proxy" },
+    { "source": "/wss/:match/:url*", "destination": "wss://:match/:url*" },
+    { "source": "/wss/:match/:url*/", "destination": "wss://:match/:url*/" },
+    { "source": "/:protocol/:match/:url*", "destination": "/api/proxy" },
+    { "source": "/:protocol/:match/:url*/", "destination": "/api/proxy" },
+    { "source": "/:protocol*/:match/:url*", "destination": "/api/proxy" },
+    { "source": "/:protocol*/:match/:url*/", "destination": "/api/proxy" }
+  ]
+}
